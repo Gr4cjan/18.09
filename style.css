@@ -6,12 +6,20 @@
 body{
     background-color: #333533;
 }
-.nagl{
+header{
     background-color: #ffd100;
     color: #333533;
-    font-size: 35px;
     text-align: center;
-    height: 55px;
+    padding: 20px 10px;
+    width: 99%;
+}
+.uczy{
+    width: 50%;
+}
+.główna{
+    width: 50%;
+    display: flex;
+    justify-content: end;
 }
 .main-container{
       color: #D6D6D6;
@@ -30,6 +38,7 @@ img{
     
 }
 .box1{
+    padding: 15px;
     border-radius: 25px;
     background-color: #202020;
     height: 400px;
@@ -42,6 +51,7 @@ img{
     outline-style: solid;
 }
 .box2{
+    padding: 15px;
     border-radius: 25px;
     background-color: #202020;
     height: 400px;
@@ -54,6 +64,7 @@ img{
     outline-style: solid;
 }
 .box3{
+    padding: 15px;
     border-radius: 25px;
     background-color: #202020;
     height: 400px;
@@ -66,6 +77,7 @@ img{
     outline-style: solid;
 }
 .box4{
+    padding: 15px;
     border-radius: 25px;
     background-color: #202020;
     height: 400px;
@@ -78,6 +90,7 @@ img{
     outline-style: solid;
 }
 .box5{
+    padding: 15px;
     border-radius: 25px;
     background-color: #202020;
     height: 400px;
@@ -128,12 +141,22 @@ h3{
     text-align: center;
     height: 55px;    
 }
-a{
+.glu{
     text-decoration: none;
     color: #202020;
 }
-a:hover{
+.glu:hover{
     transition-duration: 500ms;
     color: #ffd100;
     text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.box11{
+    border-radius: 25px;
+    color: #D6D6D6;
+    width: 70%;
+    background-color: #202020;
+    float: left;
 }
