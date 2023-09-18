@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: #333533;
+}
 .nagl{
     background-color: #ffd100;
     color: #333533;
