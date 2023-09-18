@@ -90,18 +90,18 @@ img{
     outline-style: solid;
 }
 .container{
-    margin-top: 25px;
+    margin-top: 55px;
     margin-left: 150px;
+}
+h3{
+    height: 50px;
 }
 .info{
     border-radius: 25px;
     background-color: #202020;
     color: #D6D6D6  ;
-    text-align: center;
     width: 80%;
-    height: 350px;
-    display: flex;
-
+    height: auto;
 }
 .zobacz{
     background-color: #ffd100;
@@ -110,10 +110,10 @@ img{
     border-radius: 25px;
     border-color: #ffd100;
     text-align: center;
-    text-decoration: none;
     width: 55px;
 }
 .zobacz:hover{
+    transition-duration: 500ms;
     background-color: #202020;
     color: #ffd100;
     border: 1px solid;
@@ -128,4 +128,12 @@ img{
     text-align: center;
     height: 55px;    
 }
-
+a{
+    text-decoration: none;
+    color: #202020;
+}
+a:hover{
+    transition-duration: 500ms;
+    color: #ffd100;
+    text-decoration: none;
+}
