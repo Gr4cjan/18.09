@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nagl{
+    background-color: #ffd100;
+    color: #333533;
+    font-size: 35px;
+    text-align: center;
+    height: 55px;
+}
